@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-section{
+	background-color: #f3f2f2fc;
+	height: 100px;
+	
+}
+.header-section .container{
+	width: 1366px;
+	margin: auto;
+	
+}
+
+.logo{
+	width: 15%;
+	float: left;
+}
+
+.logo a{
+	display: inline-block;
+	text-decoration: none;
+	font-family:'Roboto Slab', serif;
+	font-size: 50px;
+	font-weight: 700%;
+	font-weight: 700;
+	color: #43434c;
+	text-shadow: 3px 3px 5px #607D8B;
+	margin-top: 13px;
+	margin-left: 20px;
+}
+.menu{
+	width: 70%;
+	float: left;
+}
+
+.header-section ul{text-align: center;
+	margin-top: 26px;}
+.header-section li{
+	text-decoration: none;
+	display: inline-block;
+}
+.header-section li a{
+	display: inline-block;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 23px;
+	font-weight: 800;
+	font-weight: 700%;
+	padding: 6px;
+	margin: 0 14px;
+	transition: .4s;
+	color: #43434cde;
+}
+
+li a:hover{
+	background-color: blue;
+	color: white;
+}
+.button{
+width: 15%;
+float: left;
+}
+	
+
+.button a{
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Roboto Slab', sarif;
+	font-size: 20px;
+	color: #fff;
+	background-color: blue;
+	margin-top: 32px;
+	font-weight: 900;
+	transition: .4s;
+	padding: 12px 15px;
+	border-radius: 50px	   
+}
+	
+
+.button a:hover{
+    background-color: #000;
+	color: white;
+	padding: 12px 25px;
+	border-radius: 50px;
+}
+
+.about-section{
+	width: 1366px;
+	background-color: #eee;
+	margin: 4px auto;
+}
+	
+.about-section .container{
+	width: 38%;
+	float: left;
+	margin: 10px;
+	box-shadow: 0 2px 20px rgba( 0, 0, 0, 0.8);
+	padding: 15px;
+	color: #fff;
+	background: #262626;
+	border-radius: 15px;
+}
+.about-section .container img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	float: left;
+	margin: 40px 20px 30px 0;
+	border: 5px solid #fff;
+	shape-outside: circle();
+}
+h2{
+	font-family: audiowide;
+}
+p{
+	text-align: justify;
+	line-height: 20px;
+	font-family: audiowide;
+	font-size: 20px;
+}
+
+.quotation-section{
+	width: 1366px;
+	background-color: #e3f7cb;
+	margin-top: 400px;
+	height: 355px;
+}
+.quotation-section h3{
+	margin-top: 0px;
+	padding: 45px;
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 54px;
+	word-spacing: 17px;
+	color: #378c3a;
+	text-shadow: 3px 3px 5px lightgray;
+}
+
+.quotation-section .content{
+	text-align: center;
+	font-size: 24px;
+	font-family: ui-sans-serif;
+}
+
+
+.quotation-section blockquote::before{
+	content: "\201C";
+	font-size: 3em;
+	font-family: sans-serif;
+	color: green;
+
+}
+.passion-section{
+	width: 100%;
+	height: 622px;
+	margin-bottom: 15px;
+}
+
+.passion-section h3{
+	padding-top: 50px;
+	padding-bottom: 18px;
+	margin:2px;
+	text-align: center;
+	font-size: 44px;
+	font-family: fangsong;
+	color: #595961;
+	text-shadow: 3px 3px 5px #8a8a98;
+}
+.passion-section p{
+	text-align: center;
+	line-height: 27px;
+	width: 50%;
+	margin: 20px auto;
+}
+.photo{
+	float: left;
+	width: 33.33%;
+	padding: 19px;
+}
+.album::after {
+content: "";
+display: table;
+clear: both;
+}
+.photo img{
+	height: 332px;
+	object-fit: cover;
+	box-shadow: 7px 9px 10px darkslategrey;
+}
+
+
+.project-section{
+	width: 100%;
+	height: 510px;	
+}
+
+
+.project-section h3{
+	text-align: center;
+	font-size: 44px;
+	font-family: fangsong;
+	color: #595961;
+	text-shadow: 3px 3px 5px #8a8a98;
+	line-height: 27px;
+	margin: 30px auto;
+	padding: 23px;}
+
+.project-section h4{
+text-align: center;
+}
+.project{
+	float: left;
+	width: 33.33%;
+	padding: 19px;
+}
+.project-section .container::after {
+content: "";
+display: table;
+clear: both;
+}
+.project img{
+	height: 332px;
+	object-fit: cover;
+	box-shadow: 7px 9px 10px darkslategrey;}
+   
+
+
+
+.layout {
+	width: 1240px;
+	margin: 70px 0 0 50px;}
+
+.col-1-3{
+height:200px;
+width:33.33%;
+float: left;
+padding: 12px;
+}
+
+.col-1-1{
+height:200px;
+width:100%;
+float: left;
+padding: 12px;
+}
+
+.col-1-2{
+height:200px;
+width:50%;
+float: left;
+padding: 12px;
+}
+
+.col-4-6{
+height:200px;
+width:66.66%;
+float: left;
+padding: 12px;
+}
+
+.col-1-6{
+height:200px;
+width:16.66%;
+float: left;
+padding: 12px;
+}
+
+.green{
+height: 100%;
+background-color:green;
+ }
+
+
+.salmon{
+ height: 100%;
+ background-color: salmon;
+}
+
+.red{
+height: 100%;
+background-color: red;
+}
+
+.blue{
+height: 100%;
+background-color: blue;
+}
+
+.orange{
+ height: 100%;
+background-color: orange;
+}
+
+.pink{
+height: 100%;
+background-color: pink;
+}
+
+.seagreen{
+height: 100%;
+background-color: seagreen;
+}
+
+
+
+.yellow{
+height: 100%;
+background-color: yellow;
+}
+
+
+
+.gray{
+height: 100%;
+background-color: gray;
+}
+
+
+.footer-section{
+	padding: 40px;
+	background: gray;
+}
+
+.footer-section .container{
+	width: 1366px;
+	margin: auto;
+}
+.footer-title{
+	float: left;
+	width: 25%;
+}
+.footer-title p{
+	color: white;
+	font-size: 24px;
+	margin-bottom: 1px;
+	padding-bottom: -1px;
+}
+.footer-menu{
+	width: 56%;
+	float: left;
+}
+.footer-menu ul{
+	text-align: right;
+}
+.footer-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.footer-menu ul li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 24px;
+
+}
+.fab{
+	font-weight: 400;
+	font-family: "Font Awesome 5 Brands"
+}
